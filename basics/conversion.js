@@ -11,3 +11,7 @@ console.log(typeof isItBoolean)
 // 1-true,0-false
 // ""-false
 // "hitesh"-true
+// console.log(a**b)
+let str="Radhika"
+let str1="sharma"
+console.log(str+str1)
