@@ -24,3 +24,10 @@ users[1].emailconsole.log(tinder);
 console.log(Object.keys(tinder))
 console.log(Object.values(tinder))
 console.log(Object.entries(tinder))
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseinstructor:"hitesh"
+    const {courseInstructor:instructor}=course
+    console.log(instructor);
+}
