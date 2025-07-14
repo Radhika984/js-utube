@@ -1,4 +1,4 @@
-// jo user ayegfa ko dikhne k liye ek emssage this keyword k through
+// jo user ayegfa ko dikhne k liye ek message this keyword k through
 const user={
     username:"Radhika",
     price:999,
