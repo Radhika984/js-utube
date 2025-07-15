@@ -35,12 +35,34 @@ score++;
 // for of loop
 // ye mostly array pr lgte h 
 const arr1=[1,2,3,4,5,6]
-for(const num of arr){
+for(const num of arr1){
     console.log(num);
 }
 // Maps
 const map=new Map()
 map.set('IN',"India")
-for(const[ key ,of map){
-    console.log(key);
+// maps ko iterate krane ki cheez
+for(const[ key ,value ]of map){
+    console.log(key,':-',value);
 }
+// for objects ndvarious thighs -
+const a={
+    rb:"ruby",
+    cpp:"c++",
+}
+for(const key in a){
+console.log(a[key]);
+}
+// ye loop array pr bhi applicable h 
+
+const coding=["js","ruby","java","python"]
+// phle likhne k tareeka
+// coding.forEach(function(val){
+// console.log(val);
+// })
+coding.forEach((item)=>{
+    console.log(item);
+})
+coding.forEach((item,index,arr)=>{
+    console.log(item,index,arr);
+})
